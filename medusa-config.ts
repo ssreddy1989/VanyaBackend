@@ -13,12 +13,13 @@ export default defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
   },
-  plugins: [
-    {
-      resolve: "@medusajs/admin-bundler",
-      options: {
-        autoRebuild: true,
-      },
-    },
-  ],
+  // Remove or comment this block for now
+// plugins: [
+//   {
+//     resolve: "@medusajs/admin-bundler",
+//     options: {
+//       autoRebuild: true,
+//     },
+//   },
+// ],
 })
